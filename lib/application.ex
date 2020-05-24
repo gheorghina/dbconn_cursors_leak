@@ -12,7 +12,7 @@ defmodule DBConnCursors.Application do
 
   def start_supervisor() do
     # Define workers and child supervisors to be supervised
-    children = [ 
+    children = [
       {DBConnCursors.Repo, []},
       {DBConnCursors.Scheduler, []}
     ]

@@ -6,12 +6,8 @@ defmodule DBConnCursors.ExpireModels do
   import Ecto.Query
   alias DBConnCursors.Repo
   alias DBConnCursors.Model
- 
 
   def run() do
- 
-    IO.puts("-------- 2 ------")
-
     current_date = DateTime.utc_now()
 
     query =
