@@ -3,7 +3,7 @@
 use Mix.Config
 
 config :db_conn_cursors, DBConnCursors.Repo,
-  url: "ecto://root:solaris@127.0.0.1:3306/test_db",
+  url: "ecto://user:pass@127.0.0.1:3306/test_db",
   pool_size: 20
 
 config :db_conn_cursors,
