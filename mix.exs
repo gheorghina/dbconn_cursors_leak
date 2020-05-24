@@ -25,7 +25,7 @@ defmodule DbConnCursors.MixProject do
     [
       {:ecto_sql, "~> 3.0"},
       {:ecto, "~> 3.0"},
-      {:myxql, "~> 0.3.0", override: true},
+      {:myxql, "~> 0.4.0", override: true},
       {:quantum, "~> 2.3"},
       {:jason, "~> 1.2"},
       {:scrivener_ecto, "~> 2.0"},
